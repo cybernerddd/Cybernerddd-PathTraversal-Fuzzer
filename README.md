@@ -31,9 +31,11 @@ pip install -r requirements.txt
 ```
 
 ##  Usage
+
 ```
 python path_traversal_fuzzer.py -u "http://target.com/page?file=INJECT"
 ```
+<img width="1070" height="318" alt="Screenshot 2026-05-04 043113" src="https://github.com/user-attachments/assets/906e4be3-c1bd-45f0-9d24-6afd2b831c21" />
 
 ## ✅ Example Output
 ```
@@ -41,6 +43,7 @@ python path_traversal_fuzzer.py -u "http://target.com/page?file=INJECT"
 ------------------------------------------------------------
 [200] len=2700 | payload=../../../../etc/passwd | url=http://target/...
 ```
+<img width="1350" height="525" alt="Screenshot 2026-05-04 043353" src="https://github.com/user-attachments/assets/a4d35e1d-2786-4074-91a5-afff30698d66" />
 
 ## 🧠 How It Works
 1. Replaces INJECT with traversal payloads
@@ -49,10 +52,11 @@ python path_traversal_fuzzer.py -u "http://target.com/page?file=INJECT"
 4. Checks response for known indicators
 5. Displays only successful matches
 
+<img width="1597" height="769" alt="Screenshot 2026-05-04 043505" src="https://github.com/user-attachments/assets/982ce1fd-2c6d-4d17-b404-f9147eba752e" />
+
 ## ⚠️ Disclaimer
 
 This tool is intended for **educational purposes and authorized security testing only**.
-
 The author is not responsible for misuse.
 
 ### 👤 Author
