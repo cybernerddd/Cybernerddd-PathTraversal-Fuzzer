@@ -80,6 +80,8 @@ try:
         "../../../../../../etc/passwd",
         "../../../../../../../etc/passwd",
         "../../../../../../../../etc/passwd",
+        "....//....//....//etc/passwd",
+      
 
         "/etc/passwd",
         "/etc/hosts",
